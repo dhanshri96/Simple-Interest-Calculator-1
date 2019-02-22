@@ -12,7 +12,7 @@ function calculate(){
     if(isNaN(principal) || isNaN(years) || isNaN(rate)){
         
         var oldNode = document.getElementById("result").childNodes[0];
-        document.getElementById("result").replaceChild(document.createTextNode("Incorrect values"), oldNode);
+        document.getElementById("result").replaceChild(document.createTextNode("Enter correct values"), oldNode);
 
     }
     else{
